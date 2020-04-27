@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header .logo {
+  color: white;
+  font-size: 30px;
+}
+
+header .logo img {
+  width: 50px;
+  vertical-align: top;
+}
+
+header .logo a {
+  color: black;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header nav a {
+  color: grey;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  flex-grow: 1;
+}
+
+header .bottons {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .bottons a {
+  background-color: grey;
+  padding: 10px;
+  margin: 4px;
+  height: 30px;
+}
+
+main {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+main nav {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main nav a {
+  color: grey;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  flex-grow: 1;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin: 5px;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+footer {
+  width: 100%;
+  margin: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer .logo img {
+  width: 30px;
+  vertical-align: top;
+}
+
+footer .logo a {
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+footer .contact img {
+  width: 25px;
+  vertical-align: top;
+}
+
+footer .contact a {
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+/* @media screen and ( max-width: 800 )
+ *  .container 
+ *      flex-direction: column
+ *
+ *  header 
+ *      flex-direction: column
+ *      padding: 0
+ *
+ *  header .logo
+ *      margin: 20px
+ *
+ *  header nav
+ *      width: 100%
+ *
+ *  main flex-direction: column */
+
+/*# sourceMappingURL=style.css.map */
